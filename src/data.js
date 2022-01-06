@@ -3,87 +3,63 @@ export const featuredPortfolio = [
     id: 1,
     title: 'Twist iOS App',
     img: 'assets/images/twist.jpg',
+    url: 'https://apps.apple.com/us/app/twist-scary-chat-stories/id1439739135 ',
+    info: 'A reading platform for youngsters where they can read stories in the form of text messages.The app has been downloaded over 250,000 times on the Appstore, making it to the top 10 apps in the Books category in US,UK, Australia and Canada, during its prime. Started with $0 capital. Currently it’s a business that generates $25,000 annual revenue',
   },
   {
     id: 2,
     title: 'Sidekik Web App',
     img: 'assets/images/sidekik.png',
+    url: 'https://www.sidekik.app/',
+    info: 'A web app that helps Generation Z travelers explore their destination. I led a team of 4 students to work with me. The app launched in 2020, won the McGill tech accel competition and received a grant.',
   },
   {
     id: 3,
     title: 'Babba Web App',
     img: 'assets/images/babba.jpg',
+    url: 'https://www.babbakit.com/',
+    info: 'Babba is a healthcare company that helps men get a fertility test from home, by offering a kit that keeps the sperms alive until they reach the lab. I built their web app.',
   },
   {
     id: 4,
     title: 'Crypto Scanner App',
     img: 'assets/images/market.jpg',
+    url: 'https://peaceful-noether-64442f.netlify.app/',
+    info: 'a web app that compares the price of a pair in two crypto exchanges, and calculates the profitability of buying from one exchange and selling on the other. It supports over 112 Crypto exchanges and thousands of pairs',
   },
 ];
 
 export const webPortfolio = [
   {
     id: 1,
-    title: 'Web Social Media App',
-    img: 'https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900',
+    title: 'Sidekik Web App',
+    img: 'assets/images/sidekik.png',
+    url: 'https://www.sidekik.app/',
+    info: 'A web app that helps Generation Z travelers explore their destination. I led a team of 4 students to work with me. The app launched in 2020, won the McGill tech accel competition and received a grant.',
   },
   {
     id: 2,
-    title: 'Web Rampa UI Design',
-    img: 'https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900',
+    title: 'Babba Web App',
+    img: 'assets/images/babba.jpg',
+    url: 'https://www.babbakit.com/',
+    info: 'Babba is a healthcare company that helps men get a fertility test from home, by offering a kit that keeps the sperms alive until they reach the lab. I built their web app.',
   },
   {
     id: 3,
-    title: 'Web E-commerce Design',
-    img: 'https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900',
-  },
-  {
-    id: 4,
-    title: 'Web Relax App',
-    img: 'https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900',
-  },
-  {
-    id: 5,
-    title: 'Web Design',
-    img: 'https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900',
-  },
-  {
-    id: 6,
-    title: 'Web Banking App',
-    img: 'https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900',
+    title: 'Crypto Scanner App',
+    img: 'assets/images/market.jpg',
+    url: 'https://peaceful-noether-64442f.netlify.app/',
+    info: 'a web app that compares the price of a pair in two crypto exchanges, and calculates the profitability of buying from one exchange and selling on the other. It supports over 112 Crypto exchanges and thousands of pairs',
   },
 ];
 
 export const mobilePortfolio = [
   {
     id: 1,
-    title: 'Mobile Social Media App',
-    img: 'https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900',
-  },
-  {
-    id: 2,
-    title: 'Mobile Rampa UI Design',
-    img: 'https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900',
-  },
-  {
-    id: 3,
-    title: 'Mobile E-commerce Design',
-    img: 'https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900',
-  },
-  {
-    id: 4,
-    title: 'Mobile Relax App',
-    img: 'https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900',
-  },
-  {
-    id: 5,
-    title: 'Mobile Hero Design',
-    img: 'https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900',
-  },
-  {
-    id: 6,
-    title: 'Mobile Banking App',
-    img: 'https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900',
+    title: 'Twist iOS App',
+    img: 'assets/images/twist.jpg',
+    url: 'https://apps.apple.com/us/app/twist-scary-chat-stories/id1439739135 ',
+    info: 'A reading platform for youngsters where they can read stories in the form of text messages.The app has been downloaded over 250,000 times on the Appstore, making it to the top 10 apps in the Books category in US,UK, Australia and Canada, during its prime. Started with $0 capital. Currently it’s a business that generates $25,000 annual revenue',
   },
 ];
 

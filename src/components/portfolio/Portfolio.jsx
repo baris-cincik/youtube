@@ -8,10 +8,21 @@ import {
   designPortfolio,
   contentPortfolio,
 } from '../../data';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
 export default function Portfolio() {
   const [selected, setSelected] = useState('featured');
   const [data, setData] = useState([]);
+  const [show, setShow] = useState(false);
+  const [modalText, setModalText] = useState('Project Description');
+  const handleClose = () => {
+    setShow(false);
+    setModalText('Project Description');
+  };
+  const handleShow = () => setShow(true);
+  const [currentProject, setcurrentProject] = useState({});
+
   const list = [
     {
       id: 'featured',
@@ -50,7 +61,9 @@ export default function Portfolio() {
   }, [selected]);
 
   function projectClicked(project) {
-    console.log('project clicked');
+    console.log('project clicked: ' + project);
+    setcurrentProject(project);
+    handleShow();
   }
 
   return (
@@ -69,13 +82,27 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <div className="item">
-            <button className="project-button" onClick={projectClicked}>
+            <button
+              className="project-button"
+              onClick={() => projectClicked(d)}
+            >
               <img src={d.img} alt="" />
             </button>
-            <h3>{d.title}</h3>
+            <h3 onClick={() => projectClicked(d)}>{d.title}</h3>
           </div>
         ))}
       </div>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>{currentProject.title}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>{currentProject.info}</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" href={currentProject.url} target="_blank">
+            View Project
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
