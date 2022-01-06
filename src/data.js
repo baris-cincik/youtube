@@ -24,7 +24,7 @@ export const featuredPortfolio = [
     id: 4,
     title: 'Crypto Scanner App',
     img: 'assets/images/market.jpg',
-    url: 'https://peaceful-noether-64442f.netlify.app/',
+    url: 'https://market-scanner.netlify.app/',
     info: 'a web app that compares the price of a pair in two crypto exchanges, and calculates the profitability of buying from one exchange and selling on the other. It supports over 112 Crypto exchanges and thousands of pairs',
   },
 ];
@@ -48,7 +48,7 @@ export const webPortfolio = [
     id: 3,
     title: 'Crypto Scanner App',
     img: 'assets/images/market.jpg',
-    url: 'https://peaceful-noether-64442f.netlify.app/',
+    url: 'https://market-scanner.netlify.app/',
     info: 'a web app that compares the price of a pair in two crypto exchanges, and calculates the profitability of buying from one exchange and selling on the other. It supports over 112 Crypto exchanges and thousands of pairs',
   },
 ];
